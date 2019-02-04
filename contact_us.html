@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Evolution Meeting</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+
+function myFunction() {
+    document.getElementById("contact").reset();
+}
+</script>
+
+</head>
+
+<body>
+<div class="container">
+	<header>
+		<a href="index.html"><img src="images/logo.png" alt="evolution meeting logo" height="90"/></a>
+		<h2>EVOLUTION MEETING</h2>
+		<h3>OUR HEART IN YOUR SERVICE</h3>
+	</header>
+	<br>
+	<nav id="nav_menu">
+	  <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about_us.html">About Us</a></li>
+		<li><a href="services.html">Our Services</a></li>
+		<li><a href="financial_plan.html">Financial Plan</a></li>
+		<li><a href="contact_us.html">Contact Us</a></li>
+	  </ul>
+	</nav>
+
+	<section class="contact">
+		
+		<h2>CONTACT US</h2>
+	<fieldset>
+		<p>Please feel free to contact us:</p>
+		
+		<p><strong>Tel:</strong> (011) 352 8621</p>
+		
+		<p><strong>Email:</strong> <a href="mailto:enquiries@evomeeting.co.za?subject=feedback">enquiries@evomeeting.co.za</a></p>
+		
+		<p><strong>Address:</strong> Unit 189, 67 on 7<sup>th</sup> Avenue, Edenvale, 1610</p>
+	</fieldset>
+		<p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3581.7576378643184!2d28.148010015028785!3d-26.13944418346686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sUnit+189%2C+67+on+7th+Avenue%2C+Edenvale%2C+1610!5e0!3m2!1sen!2sza!4v1526373470637" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</p>
+		
+ <form action="action_form.html" id="contact">
+ 	<fieldset>
+  First name:<br>
+  <input type="text" name="firstname"><br>
+  Last name:<br>
+  <input type="text" name="lastname"><br />
+  Email:<br>
+  <input type="email" name="email" /><br />
+  Your Message<br />
+  <textarea name="your message" 
+placeholder="If you have any enquiries, please feel free to message us."></textarea><br>
+
+  <input type="submit" value="Submit"><input type="button" onclick="myFunction()" value="Reset">
+  
+  </fieldset>
+</form> 
+
+
+<br>
+
+
+
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</section>
+
+<footer>
+		<nav id="nav_menu_footer">
+	  <ul>
+		
+		<li><a href="market.html">Market</a></li>
+		<li><a href="about_us.html">About Us</a></li>
+		<li><a href="services.html">Our Services</a></li>
+		<li><a href="financial_plan.html">Financial Plan</a></li>
+		<li><a href="contact_us.html">Contact Us</a></li>
+	  </ul>
+	</nav>
+		<p class="footer">
+					&copy; 2018 Evolution Meeting
+					
+					
+				</p>
+	</footer>
+	</div>
+	
+
+
+</body>

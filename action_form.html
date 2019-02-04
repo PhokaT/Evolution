@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Evolution Meeting</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/main.css">
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+</script>
+
+</head>
+
+<body>
+<div class="container">
+	<header>
+		<a href="index.html"><img src="images/logo.png" alt="evolution meeting logo" height="90"/></a>
+		<h2>EVOLUTION MEETING</h2>
+		<h3>OUR HEART IN YOUR SERVICE</h3>
+	</header>
+	<br>
+	<nav id="nav_menu">
+	  <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="about_us.html">About Us</a></li>
+		<li><a href="services.html">Our Services</a></li>
+		<li><a href="financial_plan.html">Financial Plan</a></li>
+		<li><a href="contact_us.html">Contact Us</a></li>
+	  </ul>
+	</nav>
+
+	<section>
+
+<h2>Your enquiry has been recieved. A consultant will soon be in touch.<br> Thank you.</h2>
+	<h4 style="text-align: center"><a href="index.html">Return to Home page</a></h4>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+</section>
+<img src="images/footer 24-03-2018.png" width="100%" height="50">
+<footer>
+		
+		<p class="footer">
+					&copy; 2018 Evolution Meeting
+					
+					
+				</p>
+	</footer>
+	</div>
+	
+
+
+</body>
